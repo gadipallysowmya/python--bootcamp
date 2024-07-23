@@ -1,0 +1,14 @@
+#write a program to find area of a circle
+radius=int(input())
+print(3.14*radius**2)
+#write a program to find perimeter of a circle
+print(2*3.14*radius)
+#write a program to find area of triangle
+b=int(input())
+h=int(input())
+print(1/2*b*h)
+#write a program to find perimeter of a triangle
+a=int(input())
+b=int(input())
+c=int(input())
+print(a+b+c)
