@@ -1,0 +1,10 @@
+#10. print the element in a particular index
+my_list=list (map(int,input().split()))#3 6 8 4 5
+k=int(input())#18
+idx=k%len(my_list)
+print(my_list[idx])
+#4        
+        
+                
+        
+
