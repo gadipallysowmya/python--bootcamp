@@ -1,0 +1,12 @@
+n=int(input())
+len=len(str(n))
+sum=0
+temp=n
+while temp>0:
+    digit=temp%10
+    sum+=digit**len
+    temp//=10
+if n==sum:
+    print("armstrong")
+else:
+    print("not armstrong")
