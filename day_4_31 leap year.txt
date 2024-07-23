@@ -1,0 +1,6 @@
+#write a program to print all the prime numbers in a given range
+#leap year
+year=int(input())
+if year/400:
+    print("leap year")
+    
