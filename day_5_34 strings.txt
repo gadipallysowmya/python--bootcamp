@@ -1,0 +1,23 @@
+#string methods
+isalpha
+isdigit
+isalum
+is upper
+is lower
+check with lower
+converting to upper case
+title case
+swap case
+#cases in strings
+s="    hellooooooo world     "
+print(s.upper())
+print(s.lower())
+print(s.title())
+print(s.capitalize())
+print(s.strip())#skip spaces at first and last
+print(s.replace('o','z'))
+print(s.split())
+print(s.split('o'))
+print(s.swapcase())
+
+

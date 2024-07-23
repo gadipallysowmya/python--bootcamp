@@ -1,0 +1,18 @@
+#write a prgm to print all the count of vowewls and consonents
+count=0
+vowels='a','e','i','o','u'
+consonents="bcdfghjklmnpqrstvwxtz"
+count=0
+c=0
+s=input()
+for i in s:
+    if i in vowels:
+        count+=1
+for i in s:
+    if i in consonents:
+        c+=1
+print(count)
+print(c)
+
+    
+

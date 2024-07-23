@@ -1,0 +1,14 @@
+#write a prgm to print all the vowewls followed by consonents
+vowels="aeiou"
+consonents="bcdfghijklmnpqrstvwxyz"
+check="0123456789"
+ans=0
+s="hello123world"
+empty=""
+inp=s.lower()
+for i in inp:
+    if i in check:
+        ans+=int(i)
+        int(empty).append()
+        
+print(empty)

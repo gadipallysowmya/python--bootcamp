@@ -1,0 +1,14 @@
+#retuens true or false
+s="hello"
+print(s.isalpha())
+print(s.isnumeric())
+print(s.isalnum())
+print(s.isascii())
+print(s.isupper())
+print(s.islower())
+print(s.isupper())
+print(s.istitle())
+print(s.isdigit())
+
+
+

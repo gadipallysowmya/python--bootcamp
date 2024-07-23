@@ -1,0 +1,12 @@
+#write a prgm to print all the vowewls followed by consonents
+vowels='a','e','i','o','u'
+consonents="bcdfghijklmnpqrstvwxyz"
+ans=""
+s=input()
+for i in s:
+    if i in vowels:
+        ans+=i
+for i in s:
+    if i in consonents:
+        ans+=i
+print(ans)
