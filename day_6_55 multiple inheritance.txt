@@ -1,0 +1,14 @@
+#multiple inheritance
+class Father:
+    def father_speak():
+        return "father is speaking"
+class Mother:
+    def mother_speak():
+        return "mother is speaking"
+class Kid(Father,Mother):
+    def kid_speak():
+        return "kid is speaking"
+obj1=Kid
+print(obj1.father_speak())
+print(obj1.mother_speak())
+print(obj1.kid_speak())

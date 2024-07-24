@@ -1,0 +1,14 @@
+#multilevel inheritance
+class Animal:
+    def speak():
+        return "Animal is speaking"
+class Dog(Animal):
+    def dog_speak():
+        return "Boww..."
+class Puppy(Dog):
+    def puppy_speak():
+        return "i am puppy"
+obj1=Puppy
+print(obj1.speak())
+print(obj1.dog_speak())
+print(obj1.puppy_speak())
