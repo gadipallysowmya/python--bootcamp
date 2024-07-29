@@ -1,0 +1,6 @@
+s=input()
+vowels="aeiou"
+for char in s:
+    if char in vowels and s.count(char)>1:
+        print(char)
+        break

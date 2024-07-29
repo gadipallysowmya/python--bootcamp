@@ -1,0 +1,16 @@
+n=int(input())
+arr=list(map(int,input().split()))
+votes={}
+for num in arr:
+    if num in votes:
+        votes[num]+=1
+    else:
+        votes[num]=1
+max_votes=max(votes.values())
+winners=[num for num,count in votes.items()if count==max_votes]
+if len(winners)>1:
+    print(-1)
+else:
+    print(winners[0])
+    
+
