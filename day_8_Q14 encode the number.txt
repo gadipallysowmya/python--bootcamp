@@ -1,0 +1,6 @@
+n=input()
+res=""
+for i in n:
+    num=int(i)
+    res+=str(num**2)
+print(res)
