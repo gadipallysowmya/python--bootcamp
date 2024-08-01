@@ -1,0 +1,6 @@
+s=input()
+alphabets=set('abcdefghijklmnopqrstuvwxyz')
+s=set(s.lower())
+missing_chars=alphabets-s
+missing_chars=sorted(list(missing_chars))
+print("".join(missing_chars))
